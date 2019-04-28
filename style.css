@@ -362,3 +362,32 @@ template {
   display: none;
 }
 
+/* Fonts */
+
+/* Colors */
+
+/* Spaces */
+
+body {
+    color: #222;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.nav.navbar-nav {
+    padding-top: 25px;
+}
+
+.nav.navbar-nav>li {
+        padding-left: 0;
+        padding-right: 0;  
+    }
+
+.nav.navbar-nav>li >a {
+            text-transform: none;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+        }

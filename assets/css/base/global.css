@@ -1,0 +1,7 @@
+body {
+    color: $textcolor;
+    font-family: $text-ff;
+    font-size: $base-font-size;
+    overflow-x: hidden;
+    position: relative;
+}

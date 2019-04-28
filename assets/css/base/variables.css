@@ -1,0 +1,25 @@
+/* Fonts */
+$base-font-size: 12px;
+$text-ff: 'Alegreya Sans', sans-serif;
+$headings-ff: 'Alegreya Sans SC', sans-serif;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+@define-mixin font-medium-italic {
+    font-family: $text-ff;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Colors */
+$purple: #7E5485;
+$yellow: #FCC533;
+$green: #97B31B;
+$gray: #686868;
+$textcolor: #222;
+
+/* Spaces */
+$small-spacing: 10px;
+$medium-spacing: 25px;
+
+

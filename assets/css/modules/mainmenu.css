@@ -1,0 +1,14 @@
+.nav.navbar-nav {
+    padding-top: $medium-spacing;
+
+    &>li {
+        padding-left: 0;
+        padding-right: 0;
+        >a {
+            text-transform: none;
+            font-family: $headings-ff;
+            font-weight: $font-weight-bold;
+            font-size: $base-font-size * 1.5;
+        }  
+    }
+}
