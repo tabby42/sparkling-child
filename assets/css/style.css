@@ -1,3 +1,14 @@
-body {
-    background-color: green;
-}
+/*
+Theme Name: Sparkling Child
+Theme URL: https://github.com/tabby42/sparkling-child
+Description: Sparkling Child Theme
+Author: Irene
+Author URL: https://github.com/tabby42
+Template: sparkling
+Version: 1.0.0
+Text Domain: sparkling-child
+*/
+
+/* 3rd party packages */
+@import "normalize.css";
+
