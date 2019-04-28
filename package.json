@@ -1,5 +1,5 @@
 {
-  "name": "fictional-university-lwc",
+  "name": "sparkling-child",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,6 +19,7 @@
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.1",
     "gulp-postcss": "^8.0.0",
+    "postcss-automath": "^1.0.1",
     "postcss-color-function": "^4.0.1",
     "postcss-hexrgba": "^1.0.1",
     "postcss-import": "^12.0.1",
