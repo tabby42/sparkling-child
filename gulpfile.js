@@ -9,11 +9,12 @@ cssvars = require('postcss-simple-vars'),
 nested = require('postcss-nested'),
 cssImport = require('postcss-import'),
 mixins = require('postcss-mixins'),
-colorFunctions = require('postcss-color-function');
+colorFunctions = require('postcss-color-function'),
+automath = require('postcss-automath');
 
 gulp.task('styles', function() {
   return gulp.src(settings.themeLocation + 'assets/css/style.css')
-    .pipe(postcss([cssImport, mixins, cssvars, nested, rgba, colorFunctions, autoprefixer]))
+    .pipe(postcss([cssImport, mixins, cssvars, nested, rgba, colorFunctions, automath, autoprefixer]))
     .on('error', (error) => console.log(error.toString()))
     .pipe(gulp.dest(settings.themeLocation));
 });
