@@ -1,0 +1,57 @@
+div#footer-area,
+footer#colophon {
+    background-color: $green;
+    border-top: 0;
+
+    a {
+        color: $white;
+    }
+
+    .footer-widget-area {
+    padding-bottom: 0;
+
+    }
+}
+
+footer#colophon {
+    .scroll-to-top {
+        display: block;
+        border-radius: 0;
+        background: none;
+    }
+}
+
+.footer-widget-area  {
+    .widgettitle {
+        position: relative;
+        margin-bottom: $small-spacing * 2;
+        font-size: $base-font-size; 
+
+        &::after {
+            content: '';
+            position: absolute;
+            display:  block;
+            left: 0;
+            height: 2px;
+            width: 55px;
+            background-color: $white;
+            margin-top: $small-spacing / 2;
+        }
+    }
+
+    h6 {
+        text-transform: lowercase;
+        font-size: $base-font-size + 1;
+        color: $white;
+        margin-bottom: 3px;
+    }
+
+    [class^="ti-"],
+    [class*=" ti-"] {
+        font-size: $base-font-size * 1.3; 
+        position: relative;
+        top: 4px;
+        margin-right: 5px;
+    }
+    
+}

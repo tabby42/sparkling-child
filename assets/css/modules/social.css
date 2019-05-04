@@ -1,0 +1,4 @@
+#menu-social li a[href*="facebook.com"]:hover {
+    background-color: #fff;
+    opacity: .7;
+}

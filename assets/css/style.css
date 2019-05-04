@@ -11,8 +11,12 @@ Text Domain: sparkling-child
 
 /* 3rd party packages */
 @import "normalize.css";
+@import "themify-icons.css";
 
 @import "base/variables";
 @import "base/global";
 
 @import "modules/mainmenu";
+@import "modules/footer";
+@import "modules/social";
+

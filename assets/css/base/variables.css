@@ -1,5 +1,6 @@
 /* Fonts */
-$base-font-size: 12px;
+$base-font-size: 14px;
+$base-line-height: 1.7;
 $text-ff: 'Alegreya Sans', sans-serif;
 $headings-ff: 'Alegreya Sans SC', sans-serif;
 $font-weight-regular: 400;
@@ -17,6 +18,7 @@ $yellow: #FCC533;
 $green: #97B31B;
 $gray: #686868;
 $textcolor: #222;
+$white: #fff;
 
 /* Spaces */
 $small-spacing: 10px;
